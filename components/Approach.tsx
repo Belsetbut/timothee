@@ -5,28 +5,12 @@ import {CanvasRevealEffect} from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
     return (
-        <section className="py-20 ">
+        <section className="py-20 w-full">
+            <h1 className="heading">
+                More <span className="text-purple">about me</span>
+            </h1>
             <div
-                className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between">
-                <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
-                    <div className="text-center mb-12">
-                        <h2 className="text-3xl leading-9 font-extrabold text-gray-900 dark:text-white sm:text-4xl sm:leading-10">
-                            More <span className="text-purple">about me</span>
-                        </h2>
-                    </div>
-                    <p className="text-lg leading-7 text-gray-600 dark:text-gray-300 mb-4">
-                      Hello! I&apos;m <span className="text-purple">Elias Nau</span>, a dedicated software engineer from Germany with a strong passion for
-                        technology. My journey in software development began at the age of 11 when I ventured into game
-                        development. Since then, I&apos;ve explored various domains, including web development, game
-                        creation, and application building. My fascination with technology and its limitless potential
-                        has only grown over the years.
-                    </p>
-                    <p className="text-lg leading-7 text-gray-600 dark:text-gray-300 mb-4">
-                        With a solid foundation in developing modern web applications using cutting-edge technologies, I
-                        strive to create <span className="text-purple">scalable and efficient solutions</span> that offer a seamless user experience. I am
-                        constantly learning and experimenting with new technologies to enhance my skills further.
-                    </p>
-                </div>
+                className="mt-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between">
                 <div className="w-full lg:w-1/2 flex justify-center">
                     <Image
                         src="/b1.svg"
@@ -37,6 +21,26 @@ const Approach = () => {
                         draggable={false}
                     />
                 </div>
+                <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
+                    <div className="text-center mb-12">
+
+                    </div>
+                    <p className="text-lg leading-7 text-gray-600 dark:text-gray-300 mb-4">
+                        Hello! I&apos;m <span className="text-purple">Elias Nau</span>, a dedicated software engineer
+                        from Germany with a strong passion for
+                        technology. My journey in software development began at the age of 11 when I ventured into game
+                        development. Since then, I&apos;ve explored various domains, including web development, game
+                        creation, and application building. My fascination with technology and its limitless potential
+                        has only grown over the years.
+                    </p>
+                    <p className="text-lg leading-7 text-gray-600 dark:text-gray-300 mb-4">
+                        With a solid foundation in developing modern web applications using cutting-edge technologies, I
+                        strive to create <span className="text-purple">scalable and efficient solutions</span> that
+                        offer a seamless user experience. I am
+                        constantly learning and experimenting with new technologies to enhance my skills further.
+                    </p>
+                </div>
+
             </div>
         </section>
     );
